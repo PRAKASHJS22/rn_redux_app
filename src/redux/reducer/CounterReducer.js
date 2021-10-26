@@ -5,7 +5,7 @@ import { INCREMENT,DECREMENT } from "../action/Action";
 //     count = 0
 // }
 
-const reducer =(state={count:0},action)=>{
+const counter =(state={count:0},action)=>{
     switch(action.type){
         case INCREMENT:
             return{
@@ -22,4 +22,4 @@ const reducer =(state={count:0},action)=>{
     }
 }
 
-export default reducer
+export default counter

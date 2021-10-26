@@ -24,10 +24,12 @@ return (
         
             <View style={{flexDirection:'row'}}>
                 <TouchableOpacity   onPress={incr}  style={styles.button}>
-                    <Text style={styles.text} >INCREMENT</Text></TouchableOpacity>
+                    <Text style={styles.text} >INCREMENT</Text>
+                </TouchableOpacity>
                 
                 <TouchableOpacity  onPress={decr} style={styles.button} >
-                    <Text style={styles.text}>DECREMENT</Text></TouchableOpacity>
+                    <Text style={styles.text}>DECREMENT</Text>
+                </TouchableOpacity>
              </View>
         </View>
 

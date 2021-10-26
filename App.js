@@ -7,14 +7,17 @@ import {
 
 import { Provider } from 'react-redux';
 import Counter from './src/components/Counter';
-
-import store from './src/redux/store/Store';
+import AddTodo from './src/components/AddTodo';
+import TodoList from './src/components/TodoList';
+import Store from './src/redux/store/Store';
 
 
 const App =()=> {
   return (
-   <Provider store={store}>
+   <Provider store={Store}>
       <Counter/>
+      <AddTodo/>
+      {/* <TodoList/> */}
    </Provider>
   );
 };
